@@ -4,10 +4,10 @@ This repository contains mini JavaScript projects that I learned while taking tw
 - [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)  
 - [The Complete 2021 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)  
 
-The course projects consisted of basic HTML code, along with the JavaScript code.  
+Most of the course projects did not include HTML code or CSS styles. Instead, the projects were either written exercises within the lesson, performed within the `console-log` or were code-alongs.   
 I plan to expand on this by:  
-- Enhancing the HTML code
+- Inserting HTML code
 - Inserting CSS styles
-- Adding custom features  
+- Adding custom features within the JS code    
 
-Please read each projects `README.md` file, located in the individual project folders, to learn what I adjusted.
+Please read each projects `README.md` file, located in the individual project folders, to learn the focus of the project and what I adjusted.
