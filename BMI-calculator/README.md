@@ -7,7 +7,7 @@ This course project was a basic BMI calculator with only three BMI guidelines. T
 3. I created a CSS file
 4. I created a JS file
 
-#### Upcoming Changes
+### Upcoming Changes
 
 -   Enhance HTML file
 -   Insert CSS styles
