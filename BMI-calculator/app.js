@@ -10,8 +10,6 @@ if (bmiRound < 18.5) {
     alert(`Your BMI is ${bmiRound}, you have a normal weight.`);
 } else if (bmiRound >= 25 && bmiRound <= 29.9) {
     alert(`Your BMI is ${bmiRound}, you are overweight.`);
-} else if (bmiRound >= 30 && bmiRound <= 34.9) {
+} else if (bmiRound >= 30) {
     alert(`Your BMI is ${bmiRound}, you are obese.`);
-} else if (bmiRound >= 35) {
-    alert(`Your BMI is ${bmiRound}, you are extremely obese.`);
 }
