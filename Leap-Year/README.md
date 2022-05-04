@@ -2,9 +2,10 @@ This course project was a challenge to determine which years are considered Leap
 
 ### My Adjustments
 
-1. I created a HTML file
-2. I created a CSS file
-3. I created a JS file
+1. Created desktop and mobile designs in figma
+1. Wrote HTML code
+1. Wrote CSS styles
+1. Wrote JS code
 
 ### Upcoming Changes
 
