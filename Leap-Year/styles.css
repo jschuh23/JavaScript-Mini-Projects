@@ -1,0 +1,63 @@
+/* Credit to Andy Bell's Modern CSS Reset https://piccalil.li/blog/a-modern-css-reset/ , Stephanie Eckles, and Josh Comeau https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* Base reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input {
+    font: inherit;
+}
+
+p,
+h1 {
+    overflow-wrap: break-word;
+}
+
+[id] {
+    scroll-margin-top: 2rem;
+}
+
+*:focus {
+    scroll-margin-bottom: 8vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Utilities */
+.container {
+    width: min(90%, 71.25rem);
+    margin-inline: auto;
+    overflow: hidden;
+}
