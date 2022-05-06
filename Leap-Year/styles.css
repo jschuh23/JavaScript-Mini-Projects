@@ -18,6 +18,11 @@ body {
     line-height: 1.5;
 }
 
+header,
+footer {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 * {
     margin: 0;
 }
