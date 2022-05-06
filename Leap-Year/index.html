@@ -15,13 +15,15 @@
     </head>
 
     <body>
-        <!-- Navigation -->
-        <header>
-            <a class="skip-nav screen-reader-text" href="#main-content"
+        <!-- Header -->
+        <header class="header">
+            <!-- Skip nav -->
+            <a class="skip-nav screenreader-text" href="#main-content"
                 >Skip to main content</a
             >
-            <nav class="container">
-                <div class="logo">
+            <!-- Navigation -->
+            <nav class="header__nav container">
+                <div class="header__nav--logo">
                     <svg
                         viewBox="0 0 128 128"
                         width="32"
@@ -43,7 +45,7 @@
                 </div>
 
                 <a
-                    class="btn"
+                    class="header__nav--btn"
                     href="https://github.com/jschuh23"
                     target="_blank"
                 >
@@ -72,23 +74,39 @@
         </header>
 
         <!-- Main section -->
-        <main id="main-content">
-            <h1>Determine if the following year is a leap year or not</h1>
-            <p>A year is a leap year if:</p>
-            <ul>
-                <li>it is evenly divisible by 4</li>
-                <li>
-                    <strong>except</strong> if that year is also evenly
-                    divisible by 100
-                </li>
-                <li>
-                    <strong>unless</strong> that year is also divisible by 400
-                </li>
-            </ul>
+        <main id="main-content" class="main">
+            <section class="main__section container">
+                <div class="main__section--heading">
+                    <h1>Is that a Leap Year?</h1>
+                    <p>There are three factors that make a year a Leap Year.</p>
+                    <p>See if you can figure it out!</p>
+                </div>
+                <div class="main__section--input">
+                    <label for="year">Enter a year</label>
+                    <input id="year" type="text" maxlength="4" minlength="4" />
+                </div>
+            </section>
         </main>
 
+        <!-- Have this info be hidden under a 'hint' link?? 
+            <p>A year is a leap year if:</p>
+        <ul>
+            <li>it is evenly divisible by 4</li>
+            <li>
+                <strong>except</strong> if that year is also evenly
+                divisible by 100
+            </li>
+            <li>
+                <strong>unless</strong> that year is also divisible by 400
+            </li>
+        </ul> -->
+
         <!-- Footer -->
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer__text container">
+                <p>&copy; 2022 Janelle Schuh. All Rights Reserved.</p>
+            </div>
+        </footer>
 
         <script src="app.js"></script>
     </body>
